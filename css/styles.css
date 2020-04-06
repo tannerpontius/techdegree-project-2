@@ -130,20 +130,6 @@ footer p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ====================
     MEDIA QUERIES
 ======================= */
@@ -185,13 +171,22 @@ footer p {
        clear: both;
    }
 
-  
 
+}
 
+@media (min-width: 1024px) {
 
+    .main-nav li {
+        float: right;
+    }
 
+    .tanner {
+        float: left;
+    }
 
-
+    .bio {
+        padding: 5em 0;
+    }
 
 
 }
