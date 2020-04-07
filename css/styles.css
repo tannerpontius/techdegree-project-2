@@ -15,6 +15,7 @@ body {
     line-height: 1.5;
     color: lightslategray;
     text-align: center;
+    background: #f4f4f4;
 }
 
 h2 {
@@ -72,10 +73,10 @@ ul {
     padding: 0;
 }
 
-header,
+/* header,
 .top-section {
     background: #f4f4f4;
-}
+} */
 
 
 /* ----- Body ----- */
@@ -112,6 +113,11 @@ footer p {
     width: 90%;
     background: lightgray;
     margin: 2em auto;
+}
+
+.portfolio-section {
+    background: white;
+    padding: 5em 0; 
 }
 
 
