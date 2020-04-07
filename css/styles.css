@@ -106,13 +106,7 @@ footer p {
     font-weight: 700;
 }
 
-.left {
-    float: left;
-}
 
-.right {
-    float: right;
-}
 
 .accent-line {
     height: 1px;
@@ -162,6 +156,14 @@ footer p {
        padding-right: 1em;
    }
 
+   .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
    
 
    /* ----- Float Clearfix ---- */
@@ -188,5 +190,9 @@ footer p {
         padding: 5em 0;
     }
 
-
+    .navigation,
+    .bio {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
