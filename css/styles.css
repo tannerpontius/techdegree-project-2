@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Montserrat', Lato, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     color: lightslategray;
     text-align: center;
@@ -87,6 +87,7 @@ header,
 
 .top-section {
     padding-top: 2em;
+    padding-bottom: 4em;
 }
 
 .bio-content {
@@ -106,20 +107,12 @@ footer p {
     font-weight: 700;
 }
 
-
-
 .accent-line {
     height: 1px;
     width: 90%;
     background: lightgray;
     margin: 2em auto;
 }
-
-
-
-
-
-
 
 
 
@@ -151,6 +144,7 @@ footer p {
        float: left;
    }
 
+
    .col {
        padding-left: 1em;
        padding-right: 1em;
@@ -163,7 +157,6 @@ footer p {
     .right {
         float: right;
     }
-
    
 
    /* ----- Float Clearfix ---- */
@@ -172,6 +165,7 @@ footer p {
        display: table;
        clear: both;
    }
+
 
 
 }
@@ -190,9 +184,18 @@ footer p {
         padding: 5em 0;
     }
 
-    .navigation,
-    .bio {
-        width: 90%;
-        margin: 0 auto;
+    .bio-content p{
+        max-width: 800px;
     }
+
+    .contact-section {
+        margin-top: 5em;
+    }
+
+    .contact p {
+        max-width: 650px;
+        margin: 20px auto;
+    }
+
+
 }
