@@ -47,10 +47,6 @@ img {
 
 header {
     padding: 20px 0px;
-    position: fixed;
-    top: 0; 
-    width: 100%;
-    background: #f4f4f4;
 }
 
 .tanner {
@@ -147,6 +143,7 @@ footer p {
 
 @media (min-width: 768px) {
 
+
     .main-nav li {
         display: inline-block;
         margin: 0 5px;
@@ -199,8 +196,19 @@ footer p {
 
 @media (min-width: 1024px) {
 
+    header {
+        position: fixed;
+        top: 0; 
+        width: 100%;
+        background: #f4f4f4;
+    }
+
     .main-nav {
         float: right;
+    }
+
+    .top-section {
+        padding-top: 5em;
     }
 
     .tanner {
