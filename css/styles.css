@@ -121,6 +121,10 @@ footer p {
     padding: 5em 0; 
 }
 
+.portfolio-card {
+    margin-bottom: 2em;
+}
+
 .skill-card {
     padding: 1em 5em;
     background: midnightblue;
