@@ -53,6 +53,7 @@ header {
     font-size: 2em;
     text-align: center;
     margin-top: 0;
+    color: #3acec2;
 }
 
 .main-nav a {
@@ -120,6 +121,19 @@ footer p {
     padding: 5em 0; 
 }
 
+.skill-card {
+    padding: 1em 5em;
+    background: midnightblue;
+    color: #3acec2;
+    margin: 0.5em auto;
+    min-width: 250px;
+}
+
+.skill-card:hover {
+    background: black;
+    transition: all .3s;
+}
+
 
 
 
@@ -161,6 +175,10 @@ footer p {
 
     .right {
         float: right;
+    }
+
+    .skill-card {
+        display: inline-block;
     }
    
 
