@@ -25,7 +25,6 @@ p {
     font-size: .95em;
     margin-bottom: 1.5em;
     text-align: center;
-    line-height: 1.8;
 }
 
 a {
@@ -118,11 +117,11 @@ footer p {
 
 .portfolio-section {
     background: white;
-    padding: 5em 0; 
+    padding: 2em 0;
 }
 
 .portfolio-card {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 
 .skill-card {
@@ -163,16 +162,20 @@ footer p {
        float: right;
    }
 
+   .portfolio-section {
+        padding: 5em 0;
+   }
+
+
    .portfolio-card {
        width: 50%;
        float: left;
    }
 
-
    .col {
-       padding-left: 1em;
-       padding-right: 1em;
-   }
+        padding: 0 0.5em;
+        overflow: auto;
+}
 
    .left {
         float: left;
@@ -226,6 +229,8 @@ footer p {
     .bio-content p{
         max-width: 30vw;
     }
+
+  
 
     .contact-section {
         margin-top: 5em;
