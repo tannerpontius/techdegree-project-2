@@ -94,7 +94,7 @@ ul {
 }
 
 .profile-img {
-    max-width: 45vw;
+    max-width: 90%;
     text-align: center;
 }
 
@@ -162,14 +162,15 @@ footer p {
        float: right;
    }
 
-   .portfolio-section {
-        padding: 5em 0;
+   .portfolio-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
    }
 
-
    .portfolio-card {
-       width: 50%;
-       float: left;
+       flex: 1 50%;
    }
 
    .col {
@@ -242,7 +243,13 @@ footer p {
         max-width: 30vw;
     }
 
-  
+    .portfolio-div {
+        flex-wrap: wrap;
+    }
+
+    .portfolio-card {
+        flex: 1 30%;
+    }
 
     .contact-section {
         margin-top: 5em;
