@@ -139,12 +139,12 @@ footer p {
     display: none;
 }
 
-.left {
+.footer-left {
     float: left;
     margin-top: 0;
 }
 
-.right {
+.footer-right {
     float: right;
 }
 
@@ -191,6 +191,14 @@ footer p {
         overflow: auto;
 }
 
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
 
     .skill-card {
         display: inline-block;
@@ -205,7 +213,7 @@ footer p {
     }
 
     .bottom-menu-item {
-        margin: 0 1em;
+        margin: 0 0 0 1em;
         font-weight: 700;
     }
 
