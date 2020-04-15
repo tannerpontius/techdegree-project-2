@@ -139,6 +139,19 @@ footer p {
     display: none;
 }
 
+.left {
+    float: left;
+    margin-top: 0;
+}
+
+.right {
+    float: right;
+}
+
+footer p {
+    margin-top: 0;
+}
+
 
 /* ====================
     MEDIA QUERIES
@@ -178,14 +191,6 @@ footer p {
         overflow: auto;
 }
 
-   .left {
-        float: left;
-        margin-top: 0;
-    }
-
-    .right {
-        float: right;
-    }
 
     .skill-card {
         display: inline-block;
